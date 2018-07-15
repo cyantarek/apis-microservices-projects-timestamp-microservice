@@ -4,7 +4,7 @@
 
 ##Guideline
 
-User Stories (WIP):
+**User Stories (WIP):**
 
     1. The API endpoint is GET [project_url]/api/timestamp/:date_string?
     
@@ -21,12 +21,12 @@ User Stories (WIP):
     5. If the date string is invalid the api returns a JSON having the structure
     {"error" : "Invalid Date" }.
 
-Example Usage:
+**Example Usage:**
 
     [project url]/api/timestamp/2015-12-25
     [project url]/api/timestamp/1450137600
 
-Example Output:
+**Example Output:**
 
 {"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}
 
