@@ -34,13 +34,13 @@
 
 # Load Testing Results
 
- Bombarding http://127.0.0.1:14759/api/timestamp/2015-12-25 with 1000000 request(s) using 125 connection(s)
- 1000000 / 1000000 [===========================>] 100.00% 9s
-Done!
-Statistics        Avg      Stdev        Max
-  Reqs/sec    104514.28   14997.61  142855.76
-  Latency        1.19ms   658.57us    80.17ms
-  HTTP codes:
-    1xx - 0, 2xx - 1000000, 3xx - 0, 4xx - 0, 5xx - 0
+ 1. Bombarding http://127.0.0.1:14759/api/timestamp/2015-12-25 with 1000000 request(s) using 125 connection(s)
+ 2. 1000000 / 1000000 [===========================>] 100.00% 9s
+ 3.Done!
+ 4. Statistics        Avg      Stdev        Max
+ 5. Reqs/sec    104514.28   14997.61  142855.76
+ 6. Latency        1.19ms   658.57us    80.17ms
+ 7. HTTP codes:
+ 8. 1xx - 0, 2xx - 1000000, 3xx - 0, 4xx - 0, 5xx - 0
     others - 0
-  Throughput:    25.14MB/s%      
+ 9. Throughput:    25.14MB/s%      
