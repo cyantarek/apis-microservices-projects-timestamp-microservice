@@ -2,6 +2,8 @@
 
 ###Reference: https://curse-arrow.glitch.me/
 
+###Live Deployed on Heroku: https://hidden-tor-86938.herokuapp.com/api/timestamp/
+
 ##Guideline
 
 **User Stories (WIP):**
