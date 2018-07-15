@@ -1,10 +1,10 @@
-#API Project: Timestamp Microservice
+# API Project: Timestamp Microservice
 
-###Reference: https://curse-arrow.glitch.me/
+### Reference: https://curse-arrow.glitch.me/
 
-###Live Deployed on Heroku: https://hidden-tor-86938.herokuapp.com/api/timestamp/
+### Live Deployed on Heroku: https://hidden-tor-86938.herokuapp.com/api/timestamp/
 
-##Guideline
+## Guideline
 
 **User Stories (WIP):**
 
@@ -32,7 +32,7 @@
 
 {"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}
 
-###Load Testing Results
+# Load Testing Results
 
  Bombarding http://127.0.0.1:14759/api/timestamp/2015-12-25 with 1000000 request(s) using 125 connection(s)
  1000000 / 1000000 [===========================>] 100.00% 9s
