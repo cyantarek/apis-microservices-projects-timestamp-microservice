@@ -36,7 +36,6 @@
 
  1. Bombarding http://127.0.0.1:14759/api/timestamp/2015-12-25 with 1000000 request(s) using 125 connection(s)
  2. 1000000 / 1000000 [===========================>] 100.00% 9s
- 
  3.Done!
  4. Statistics        Avg      Stdev        Max
  5. Reqs/sec    104514.28   14997.61  142855.76
