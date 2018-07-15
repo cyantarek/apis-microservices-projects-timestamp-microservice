@@ -8,7 +8,6 @@ import (
 	"errors"
 	"strings"
 	"strconv"
-	"os"
 )
 
 type Response struct {
@@ -20,7 +19,7 @@ func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/api/timestamp/", APIHandler)
 
-	if err := http.ListenAndServe(":" + os.Getenv("PORT"), mux); err != nil {
+	if err := http.ListenAndServe(":14759", mux); err != nil {
 		fmt.Println(err.Error())
 	}
 }

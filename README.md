@@ -32,3 +32,15 @@
 
 {"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}
 
+###Load Testing Results
+
+ Bombarding http://127.0.0.1:14759/api/timestamp/2015-12-25 with 1000000 request(s) using 125 connection(s)
+ 1000000 / 1000000 [===========================>] 100.00% 9s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec    104514.28   14997.61  142855.76
+  Latency        1.19ms   658.57us    80.17ms
+  HTTP codes:
+    1xx - 0, 2xx - 1000000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:    25.14MB/s%      
