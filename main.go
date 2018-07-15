@@ -19,7 +19,7 @@ func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/api/timestamp/", APIHandler)
 
-	if err := http.ListenAndServe(":14759", mux); err != nil {
+	if err := http.ListenAndServe(":80", mux); err != nil {
 		fmt.Println(err.Error())
 	}
 }
